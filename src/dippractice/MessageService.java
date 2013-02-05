@@ -9,7 +9,7 @@ package dippractice;
  * @author chris
  */
 public class MessageService {
-    private static final String message = "Hello";
+    private static final String message = "hello";
     private iOutputStrategy out;
     private iInputStrategy in;
     
