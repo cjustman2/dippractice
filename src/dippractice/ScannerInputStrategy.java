@@ -12,6 +12,10 @@ public class ScannerInputStrategy {
     private String input;
     
     
+    public void InputStrategy(){
+    System.out.println ("Enter a message ");
+    }
+    
   
     
 }

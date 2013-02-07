@@ -15,12 +15,12 @@ public class DIPPractice {
      */
     public static void main(String[] args) {
             iOutputStrategy out = new GuiOutputStrategy();
-        MessageService service = new MessageService(out);
+       // MessageService service = new MessageService(out);
         
         iInputStrategy in = new GuiInputStrategy();
-       MessageService servicein = new MessageService();
+      // MessageService servicein = new MessageService();
         
         //service.outputMessage();
-        servicein.inputMessage();
+        //servicein.inputMessage();
     }
 }
