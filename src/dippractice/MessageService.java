@@ -14,17 +14,15 @@ public class MessageService {
     private iInputStrategy in;
     
     
-    public MessageService(iOutputStrategy out){
-        this.out = out;
+    public MessageService(iInputStrategy in){
+        this.in = in;
     }
     
       public void outputMessage(){
         out.outputMessage(message);
     }
       
-     public void InputMessage(){
-         in.inputMessage(inputMessage);
-     }
+  
       
     
       

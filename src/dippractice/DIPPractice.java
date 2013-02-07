@@ -18,7 +18,7 @@ public class DIPPractice {
         MessageService service = new MessageService(out);
         
         iInputStrategy in = new GuiInputStrategy();
-       MessageService servicein = new MessageService(inputMessage);
+       MessageService servicein = new MessageService();
         
         //service.outputMessage();
         servicein.inputMessage();
