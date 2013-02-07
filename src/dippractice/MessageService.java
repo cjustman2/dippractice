@@ -22,6 +22,10 @@ public class MessageService {
         out.outputMessage(message);
     }
       
+      public MessageService(iInputStrategy in){
+          this.in = in;
+      }
+      
       public void inputMessage(){
       
       }

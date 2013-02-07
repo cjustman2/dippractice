@@ -11,14 +11,13 @@ import javax.swing.JOptionPane;
  * @author chris
  */
 public class GuiInputStrategy implements iInputStrategy{
-    private String input;
-    
+    private String inputMessage;
     
     @Override
-    public String inputMessage(){
-        input = JOptionPane.showInputDialog("Message?");
-        return input;
-    }
+   public void InputMessage(String inputMessage){
+        inputMessage = JOptionPane.showInputDialog("Message?");
+   }  
+    
   
     
 }
