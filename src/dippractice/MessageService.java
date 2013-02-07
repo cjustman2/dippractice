@@ -22,12 +22,11 @@ public class MessageService {
         out.outputMessage(message);
     }
       
-      public MessageService(iInputStrategy in){
-          this.in = in;
-      }
+     public void InputMessage(){
+         in.inputMessage(inputMessage);
+     }
       
-      public void inputMessage(){
+    
       
-      }
     
 }

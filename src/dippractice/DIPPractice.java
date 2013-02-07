@@ -17,6 +17,10 @@ public class DIPPractice {
             iOutputStrategy out = new GuiOutputStrategy();
         MessageService service = new MessageService(out);
         
-        service.outputMessage();
+        iInputStrategy in = new GuiInputStrategy();
+       MessageService servicein = new MessageService(inputMessage);
+        
+        //service.outputMessage();
+        servicein.inputMessage();
     }
 }
