@@ -14,14 +14,11 @@ public class GuiInputStrategy implements iInputStrategy{
     private String inputMessage;
     
     @Override
-   public void InputMessage(String inputMessage){
+   public String getMessage(){
         inputMessage = JOptionPane.showInputDialog("Message?");
-       
+       return inputMessage;
    } 
-    
-    public String returnMessage(){
-        return inputMessage;
-    }
+ 
     
   
     

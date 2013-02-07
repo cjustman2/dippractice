@@ -9,17 +9,18 @@ package dippractice;
  * @author chris
  */
 public class MessageService {
-    private static final String message = "hello";
+    //private static final String message;
     private iOutputStrategy out;
     private iInputStrategy in;
     
     
-    public MessageService(iInputStrategy in){
+    public MessageService(iOutputStrategy out, iInputStrategy in){
+        this.out = out;
         this.in = in;
     }
     
       public void outputMessage(){
-        out.outputMessage(message);
+        out.outputMessage(in.getMessage());
     }
       
   

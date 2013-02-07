@@ -11,6 +11,6 @@ package dippractice;
 public interface iInputStrategy {
     
     
-    public abstract void InputMessage(String inputMessage);
+    public abstract String getMessage();
     
 }
